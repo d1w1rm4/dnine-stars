@@ -53,7 +53,7 @@ It demonstrates the use of **PHP and Bootstrap** to create a professional, funct
 ---
 
 ## 📸 Preview 
-![Website Preview](preview.png)
+![Website Preview](preview.jpeg)
 
 ---
 
