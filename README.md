@@ -1,64 +1,65 @@
 # D’Nine Stars Travel and Tours Website  
-🌐 [Live Site](https://yourwebsiteurl.com)
+🌐 [Live Site](https://dninestarstravelandtours.com)
 
-A professionally designed and fully responsive website built for **D’Nine Stars Travel and Tours**, a travel agency based in Dinagat Islands.  
-The platform enhances the company’s **digital presence** and allows customers to explore travel packages, view destinations, and book tours directly through an **email-powered booking system**.
+A professionally designed and responsive website built for **D’Nine Stars Travel and Tours**, a travel agency based in Dinagat Islands.  
+The site enhances the company’s **online presence** and enables customers to explore travel packages, view destinations, and **book tours directly through an integrated email booking system**.
 
 ---
 
 ## ✨ Features
-- 📱 **Responsive Design** — Works seamlessly on mobile, tablet, and desktop devices  
-- 🧭 **Dynamic Tour Listings** — Displays destinations and travel packages with detailed descriptions  
-- 📩 **Email Booking System** — Sends booking and inquiry details directly to the agency’s email  
-- 💬 **Contact Form Integration** — Allows customers to message the agency for questions or quotes  
-- ⚡ **Fast and Lightweight** — Optimized for quick load times and smooth navigation  
+- 📱 **Responsive Design** — Built with Bootstrap for a seamless experience on all devices  
+- 🧭 **Dynamic Tour Listings** — Displays destinations, packages, and travel information clearly  
+- 📩 **Email Booking System (PHP)** — Handles user inquiries and reservations via email  
+- 💬 **Contact Form Integration** — Sends customer messages directly to the agency’s inbox  
+- ⚡ **Optimized Performance** — Lightweight design for fast page loading and easy navigation  
 
 ---
 
 ## 🧩 Tech Stack
-- **Frontend:** HTML, CSS, JavaScript (Svelte)  
-- **Email Integration:** EmailJS / SMTP / FormSubmit  
-- **Hosting:** Netlify / Firebase  
-- **Design:** Figma, Tailwind CSS  
+- **Frontend:** HTML, CSS, JavaScript, [Bootstrap]
+- **Backend:** PHP (Form handling and email booking)  
+- **Email Integration:** PHP `mail()` / SMTP (for booking and contact forms)  
+- **Hosting:** cPanel / Apache Server  
+- **Design Tools:** Figma (for layout and UI design)
 
 ---
 
 ## 📧 Email Booking Feature
-The website includes an **automated email booking system** that allows customers to send tour reservations or inquiries directly from the site.  
-When a user fills out the booking form and submits it, their details are automatically sent to the agency’s designated inbox.
+The website includes a built-in **email booking and inquiry system** powered by PHP.  
+Customers can fill out a form to request bookings or travel quotes, and the system automatically sends the details to the agency’s email.
 
 **Workflow Example:**
-1. User fills out the booking form (name, contact, destination, preferred date).  
-2. The website triggers an email request via **EmailJS** (or similar service).  
-3. The agency instantly receives a formatted booking email containing all details.  
-4. A confirmation message is displayed to the user.
+1. User fills out the booking form (name, destination, date, contact info).  
+2. PHP validates and sanitizes input data.  
+3. PHP’s `mail()` or SMTP sends a formatted email to the agency’s address.  
+4. User receives an on-page confirmation message.
 
-This feature removes the need for backend hosting while maintaining secure and efficient client–business communication.
+This ensures a direct and efficient communication channel between customers and the travel agency.
 
 ---
 
 ## 🧠 My Role
-- Designed and developed the complete website structure and interface  
-- Implemented responsive layouts for all screen sizes  
-- Integrated the **email booking and inquiry system**  
-- Deployed and maintained the live production version  
+- Designed and implemented the website layout using Bootstrap  
+- Developed responsive and mobile-friendly pages  
+- Integrated **PHP-based email booking and contact form system**  
+- Deployed and maintained the live version of the site  
 
 ---
 
 ## 📍 About
-This website was created as a **freelance web development project** for **D’Nine Stars Travel and Tours** (Dinagat Islands, Philippines).  
-It reflects a modern, user-friendly approach to small business websites, empowering clients to reach and serve more travelers online.
+This website was developed as a **freelance project** for **D’Nine Stars Travel and Tours** (Dinagat Islands, Philippines).  
+It demonstrates the use of **PHP and Bootstrap** to create a professional, functional, and user-focused business website.
 
 ---
 
-## 📸 Preview
-*(Add screenshots here)*  
+## 📸 Preview 
 ![Website Preview](preview.png)
 
 ---
 
 ## 🧾 License
-This project is open-source and available under the [MIT License](LICENSE).
+This project is proprietary and the **source code is private**.  
+For demonstration purposes, only the website and visual assets are shared.
 
 ---
 
